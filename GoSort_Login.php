@@ -65,24 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             justify-content: center;
             background-color: #F3F3EF;
         }
-        .login-container {
-            width: 100%;
-            max-width:500px;
-            padding: 4rem;
-            margin: 50px;
-        }
 
-        .form-control {
-            font-family: 'inter', sans-serif;
-            border: 1px solid #333;
-            border-radius: 5px;
-            background-color: transparent;
-            padding: 10px;
-            font-size: 14px;
-            position: relative;
-            z-index: 1;
-            border-width: 1.5px;
-        }
         .form-control:focus {
             box-shadow: none;
             border-color: #58C542;
